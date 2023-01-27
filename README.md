@@ -1,7 +1,6 @@
 # Installation
 
-After downloading the file from Coming-soon
-, You will find Deadline.zip file. Then unzip the Deadline.zip and run the following commands on Deadline folder to get started with the project.
+After downloading the file from Coming-soon, You open to get started with the project.
 
 ```
 yarn
