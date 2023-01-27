@@ -24,11 +24,7 @@ import { SOCIAL_PROFILES } from '@deadline/common/data/social-share/three';
 
 // Language translation files
 import localEng from '@deadline/common/data/translation/twentyone/en.json';
-import localAr from '@deadline/common/data/translation/twentyone/ar.json';
 import localEs from '@deadline/common/data/translation/twentyone/es.json';
-import localDe from '@deadline/common/data/translation/twentyone/de.json';
-import localCn from '@deadline/common/data/translation/twentyone/zh.json';
-import localIl from '@deadline/common/data/translation/twentyone/he.json';
 import { Container, SocialShare } from '../components';
 import LogoImage from '@deadline/common/static/images/logoTwo.png';
 //corner images
@@ -38,11 +34,7 @@ import Image2 from '@deadline/common/static/images/twentyone/bottom-right.png';
 // Language translation Config
 const messages = {
   en: localEng,
-  ar: localAr,
   es: localEs,
-  de: localDe,
-  zh: localCn,
-  he: localIl,
 };
 
 const deadline = new Date(Date.parse(new Date()) + 12 * 24 * 60 * 60 * 1000);
@@ -59,8 +51,8 @@ const IndexPage = () => (
           />
         </Head>
         <NextSeo
-          title="Coming Soon 21"
-          description="React Next Coming Soon Template."
+          title="AWS UG Perú"
+          description="AWS UG Perú comunity day 2023"
         />
         <FullWrapper>
           <CornerImages>
@@ -75,9 +67,12 @@ const IndexPage = () => (
             <Container className="mainContainer">
               <MainContentSection>
                 <LogoImageContainer>
-                  <Link href={'/twentyone'}>
+                  <Link href={'/'}>
                     <a>
-                      <img src={LogoImage} alt="logo" />
+                      <img
+                        width={260}
+                        src={LogoImage} alt="logo"
+                      />
                     </a>
                   </Link>
                 </LogoImageContainer>
