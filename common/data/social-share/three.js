@@ -1,27 +1,27 @@
-import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
-import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
+import { socialLinkedin } from 'react-icons-kit/ionicons/socialLinkedin';
 import { socialGithub } from 'react-icons-kit/ionicons/socialGithub';
-import { socialGoogleplusOutline } from 'react-icons-kit/ionicons/socialGoogleplusOutline';
+import { socialFacebook } from 'react-icons-kit/ionicons/socialFacebook';
+import { socialTwitter } from 'react-icons-kit/ionicons/socialTwitter';
 
 export const SOCIAL_PROFILES = [
   {
     id: '1',
-    icon: socialFacebook,
-    url: '/three',
+    icon: socialLinkedin,
+    url: 'https://www.linkedin.com/company/awsusergroupperu/',
   },
   {
     id: '2',
-    icon: socialTwitter,
-    url: '/three',
+    icon: socialGithub,
+    url: 'https://www.youtube.com/@AWSUserGroupPeruOficial',
   },
   {
     id: '3',
-    icon: socialGithub,
-    url: '/three',
+    icon: socialFacebook,
+    url: 'https://www.facebook.com/awsugperu',
   },
   {
     id: '4',
-    icon: socialGoogleplusOutline,
-    url: '/three',
+    icon: socialTwitter,
+    url: 'https://twitter.com/AWSPeru',
   },
 ];

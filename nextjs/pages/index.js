@@ -85,11 +85,6 @@ const IndexPage = () => (
                 <p>
                   <FormattedMessage id="description" />
                 </p>
-                <ContactForm>
-                  <Fade top>
-                    <ContactFormPortion />
-                  </Fade>
-                </ContactForm>
                 <FooterSection>
                   <SocialShare items={SOCIAL_PROFILES} />
                   <p>

@@ -90,14 +90,14 @@ header h1 {
 
 .NormalClock {
   display: flex;
-  ;align-items: center;
+  align-items: center;
   justify-content: space-between;
   gap: 2rem;
 }
 .NormalClock span {
   font-family: 'Roboto', monospace;
-  font-size: 2em;
-  font-weight: bold;
+  font-size: 1.6em;
+  font-weight: 500;
   color: rgb(255, 255, 255);
 }
 
